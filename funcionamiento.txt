@@ -1,0 +1,13 @@
+1- nodo origen:
+	previo = el mismo
+	distancia = 0
+
+2- el resto de nodos:
+	previo = null
+	distancia = Integer.MAX_VALUE
+
+3- añadir todos los nodos en una lista ordenada por distancia. Si la distancia es la misma, entonces se ordena por identificador.
+
+4- algoritmo puro
+	coger el primer nodo (sera el origen)
+	coger uno por uno los vecinos, actualizar la distancia y el nodo previo
